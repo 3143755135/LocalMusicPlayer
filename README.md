@@ -6,6 +6,8 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+**下载最新版本**：[Releases](https://github.com/3143755135/LocalMusicPlayer/releases/latest) ｜ **仓库**：https://github.com/3143755135/LocalMusicPlayer
+
 ## 已实现的功能
 
 - **曲库**：自动扫描设备音频（MediaStore），首次启动引导授权
@@ -50,7 +52,7 @@ Windows 用 `gradlew.bat`，并在系统环境变量里配置 `JAVA_HOME` 与 `A
 
 **方式三：直接装现成 APK**
 
-从仓库的 **Releases** 页面下载最新版本的 `MusicPlayer-<版本>-debug.apk`（带 debug 签名，可以直接安装），拷到手机后用文件管理器打开安装，或：
+从 [Releases](https://github.com/3143755135/LocalMusicPlayer/releases/latest) 页面下载最新版本的 `MusicPlayer-<版本>-debug.apk`（带 debug 签名，可以直接安装），拷到手机后用文件管理器打开安装，或：
 
 ```bash
 adb install -r MusicPlayer-1.0.0-debug.apk
@@ -64,7 +66,7 @@ Release 页面同时提供混淆压缩后的 release 包；正式分发前需要
 
 **用现成的 APK（最快）**
 
-到仓库的 **Releases** 页面下载最新版本 APK，拷到手机（数据线、微信文件传输、网盘都行），用手机上的文件管理器点开安装。系统如果提示“不允许安装未知来源应用”，在弹窗里选择允许当前文件管理器安装即可。
+到 [Releases](https://github.com/3143755135/LocalMusicPlayer/releases/latest) 页面下载最新版本 APK，拷到手机（数据线、微信文件传输、网盘都行），用手机上的文件管理器点开安装。系统如果提示“不允许安装未知来源应用”，在弹窗里选择允许当前文件管理器安装即可。
 
 也可以用数据线：
 
